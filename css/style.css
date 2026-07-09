@@ -362,7 +362,7 @@ img { max-width: 100%; display: block; }
   padding: 0 32px;
 }
 .project.open .project-detail {
-  max-height: 1400px;
+  max-height: 3200px;
   padding: 0 32px 32px;
   border-top: 1px solid var(--line);
   padding-top: 24px;

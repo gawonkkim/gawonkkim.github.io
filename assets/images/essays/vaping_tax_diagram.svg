@@ -1,0 +1,54 @@
+<svg viewBox="0 0 620 460" xmlns="http://www.w3.org/2000/svg" font-family="'Pretendard', -apple-system, sans-serif">
+  <rect width="620" height="460" fill="#ffffff"/>
+
+  <!-- title -->
+  <text x="310" y="28" text-anchor="middle" font-size="15" font-weight="700" fill="#16211e">전자담배 시장의 부정적 외부효과와 세금 부과</text>
+
+  <!-- axes -->
+  <line x1="90" y1="380" x2="90" y2="55" stroke="#16211e" stroke-width="1.5"/>
+  <line x1="90" y1="380" x2="560" y2="380" stroke="#16211e" stroke-width="1.5"/>
+  <text x="90" y="42" text-anchor="middle" font-size="12.5" fill="#16211e">Price (£)</text>
+  <text x="575" y="384" text-anchor="start" font-size="12.5" fill="#16211e">Quantity</text>
+
+  <!-- demand curve D = MPB -->
+  <line x1="130" y1="90" x2="500" y2="360" stroke="#2f5d4f" stroke-width="2"/>
+  <text x="505" y="368" font-size="12.5" fill="#2f5d4f" font-weight="600">D = MPB</text>
+
+  <!-- original supply S = MSC = MPC -->
+  <line x1="140" y1="360" x2="440" y2="95" stroke="#16211e" stroke-width="2"/>
+  <text x="446" y="92" font-size="12.5" fill="#16211e" font-weight="600">S = MSC = MPC</text>
+
+  <!-- supply after tax S' = MSC = MPC + Tax (shifted left/up) -->
+  <line x1="210" y1="360" x2="480" y2="70" stroke="#b3552c" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="486" y="68" font-size="12.5" fill="#b3552c" font-weight="600">MSC = MPC + Tax</text>
+
+  <!-- equilibrium points -->
+  <!-- original market equilibrium (over-consumption point b): intersection D & original S -->
+  <circle cx="304" cy="234" r="4" fill="#16211e"/>
+  <text x="312" y="230" font-size="12" fill="#16211e">b (Qe, Pe)</text>
+
+  <!-- socially optimal point a: intersection D & MSC would be below; approximate a bit left -->
+  <circle cx="250" cy="272" r="4" fill="#2f5d4f"/>
+  <text x="180" y="290" font-size="12" fill="#2f5d4f">a (사회적 최적)</text>
+
+  <!-- new equilibrium after tax d: intersection D & taxed S -->
+  <circle cx="356" cy="196" r="4" fill="#b3552c"/>
+  <text x="364" y="192" font-size="12" fill="#b3552c">d (Q*, P1)</text>
+
+  <!-- deadweight loss triangle between a and b -->
+  <polygon points="250,272 304,234 304,272" fill="#e4ede9" stroke="#2f5d4f" stroke-width="1"/>
+  <text x="255" y="262" font-size="11" fill="#2f5d4f" font-style="italic">DWL</text>
+
+  <!-- dashed guide lines -->
+  <line x1="304" y1="234" x2="304" y2="380" stroke="#c9c3b6" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="356" y1="196" x2="356" y2="380" stroke="#c9c3b6" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="90" y1="234" x2="304" y2="234" stroke="#c9c3b6" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="90" y1="196" x2="356" y2="196" stroke="#c9c3b6" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <text x="304" y="398" text-anchor="middle" font-size="11.5" fill="#4a5550">Qe</text>
+  <text x="356" y="398" text-anchor="middle" font-size="11.5" fill="#4a5550">Q*</text>
+  <text x="78" y="238" text-anchor="end" font-size="11.5" fill="#4a5550">Pe</text>
+  <text x="78" y="200" text-anchor="end" font-size="11.5" fill="#4a5550">P1</text>
+
+  <text x="310" y="430" text-anchor="middle" font-size="11.5" fill="#4a5550">세금 부과로 공급곡선이 좌상방으로 이동 → 균형 수량 감소(Qe→Q*), 가격 상승(Pe→P1), 후생손실(DWL) 축소</text>
+</svg>
