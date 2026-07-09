@@ -10,6 +10,8 @@ For the replacement of air-bending technology, Tesla created giga-casting — an
 
 A STEEPLE analysis — covering Political, Economic, Social, Technological, Legal, and Environmental factors — helps identify the internal and external opportunities and challenges giga-casting offers Tesla.
 
+![Table 1. 기가캐스팅 도입의 STEEPLE 분석](assets/images/essays/tesla_steeple_table.png)
+
 Politically, giga-casting poses a threat to the labor market as automation replaces jobs; Tesla has already faced criticism for layoffs, and adopting cost-saving production technology may lead to further job insecurity and tension with labor unions. Economically, giga-casting requires high investment costs for specialized machinery, but trials at Tesla's Shanghai gigafactory showed it reduces ramp-up time and eliminates welding robots, cutting machinery costs — with factories in Texas and Berlin achieving even greater economies of scale. Socially, Tesla gained a competitive advantage as the first manufacturer to publicly employ this casting method, strengthening its brand appeal among buyers who value innovation. Technologically, Tesla's heavy reliance on a single integrated machine creates dependency risk, though Tesla developed a specialized heat-resistant alloy through collaboration with SpaceX — while competitors like Mercedes-Benz and Volkswagen are now adopting similar technology. Legally, the aluminum parts produced through giga-casting have comparatively lower durability, raising quality control and recall-cost risks as a safety obligation. Environmentally, giga-casting reduces waste by combining manufacturing processes into fewer steps, lowering Tesla's carbon footprint and appealing to environmentally-conscious consumers.
 
 The primary goal of implementing giga-casting was to enhance profitability and fund further product development. While it offers significant cost and material savings, minor challenges remain — legal and safety concerns that could be resolved by strengthening the alloy, and potential layoffs that Tesla could mitigate by reallocating workers to subsidiaries like SpaceX.
@@ -18,9 +20,13 @@ The primary goal of implementing giga-casting was to enhance profitability and f
 
 A product perception map is a visual tool that reveals customer perceptions of a product or brand relative to others in the market, based on variables such as price and quality.
 
+![Table 2. 가격-품질 포지셔닝 맵 (Tesla vs BYD)](assets/images/essays/tesla_perception_map.png)
+
 BYD's polarized sales strategy, focused on economy products, dominates the Southeast Asian EV market among low-income consumers, and BYD's price advantage increasingly challenges Tesla's market leadership. Tesla's Model S and Model X occupy an awkward position — being neither premium nor economy options — and are losing profitability, while global sales are driven mainly by the Model 3 and Model Y. As giga-casting technology advances, cost-effective production will reduce consumer prices across Tesla's product range. While Chinese manufacturers may currently lead in price competition, the long-term edge of cheap EVs will diminish as technology-driven advantages persist, and with continued investment in quality, Tesla can position itself as a more sustainable and attractive brand for consumers.
 
 ## Ratio Analysis
+
+![Table 3. 재무비율 분석 (2020 Q1 vs 2022 Q1)](assets/images/essays/tesla_ratio_table.png)
 
 Gross Profit Margin (GPM) measures a business's efficiency by comparing revenue to cost of goods sold. Giga-casting reduces the number of parts and assemblies needed in traditional casting and welding, lowering labor, material, machinery, and maintenance costs. Tesla's GPM increased from 25.2% in Q1 2020 to 35.2% in Q1 2022, reflecting the successful use of giga-casting to enhance profitability and achieve economies of scale.
 
@@ -33,6 +39,8 @@ Inventory Turnover Ratio measures how quickly inventory is sold and replaced. In
 ## Conclusion
 
 Tesla's profitability soared with giga-casting technology, streamlining production by merging over 70 parts into one. This innovation cut costs, boosted efficiency, and improved key financial metrics like GPM, NPM, and ROCE, while scaling production to meet high Model Y demand.
+
+![Table 5. 생산 비용 절감 옵션 평가](assets/images/essays/tesla_evaluation_table.png)
 
 On the other hand, some factors may reduce the advantages of giga-casting over time. Tesla's future success hinges on its ability to protect its competitive edge through creative administration — for example, by licensing its giga-casting technology to select partners in non-competing industries or regions, generating additional income streams while minimizing the rise of potential competitors. Tesla should also prioritize investment in R&D to enhance giga-casting efficiency, focusing on smart energy systems and sustainable or bio-based materials that align with its environmental vision.
 

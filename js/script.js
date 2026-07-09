@@ -112,6 +112,11 @@ function renderArticleText(text) {
     if (b.startsWith('## ')) {
       return `<h4 class="article-heading">${escapeHtml(b.slice(3))}</h4>`;
     }
+    const imgMatch = b.match(/^!\[(.*?)\]\((.*?)\)$/);
+    if (imgMatch) {
+      const [, caption, src] = imgMatch;
+      return `<figure class="article-figure"><img src="${src}" alt="${escapeHtml(caption)}"><figcaption>${escapeHtml(caption)}</figcaption></figure>`;
+    }
     return `<p>${escapeHtml(b)}</p>`;
   }).join('');
 }

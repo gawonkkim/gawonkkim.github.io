@@ -14,6 +14,8 @@ Beyond financial repercussions, the HYBE-ADOR conflict exposed deeper issues wit
 
 ## Porter's Generic Strategy
 
+![Porter's Generic Strategy Matrix](assets/images/essays/hybe_porters_matrix.png)
+
 HYBE primarily pursues a differentiation strategy on a market scale, and a differentiation focus strategy within niche markets, distinguishing itself through global fan-engagement content and a multi-label system that allows for artistic diversity and creative autonomy. However, ongoing legal disputes with ADOR threaten this positioning. The legal battles risk eroding HYBE's cost advantage through legal fees and operational inefficiencies, while allegations of concept plagiarism tarnish its reputation for originality — undermining the artist-first, differentiated image that underpins its competitive position as a top entertainment label. In conclusion, HYBE's internal legal conflicts jeopardize its differentiation strategy by damaging its reputation for innovation, eroding trust with fans, and increasing operational costs. To maintain its competitive position, HYBE must address these conflicts transparently, restore its image of ethical leadership, and reinforce its commitment to original content.
 
 ## Stakeholder Analysis
@@ -35,6 +37,8 @@ HYBE's strengths include global brand recognition through acts like BTS, an inno
 HYBE's strong global brand and innovative platform provide a solid foundation, but the current internal conflicts pose significant reputational challenges. By addressing these weaknesses and seizing new market opportunities, HYBE can strengthen its competitive edge while mitigating threats related to fan loyalty and regulatory scrutiny.
 
 ## Corporate Social Responsibility (CSR) Analysis
+
+![Carroll's CSR Pyramid](assets/images/essays/hybe_csr_pyramid.png)
 
 Using Carroll's CSR pyramid, HYBE's economic responsibility to shareholders is under strain, given the financial losses and stock price decline from the dispute. Its legal responsibilities are technically being pursued through HYBE's lawsuits against ADOR, though the conflict raises questions about the effectiveness of HYBE's internal compliance mechanisms. Ethically, the dispute highlights tension between creative autonomy and corporate control — accusations of plagiarism and the controversial "Project 1945" document raise real questions about HYBE's ethical decision-making. At the philanthropic level, reputational and financial constraints from the dispute may limit HYBE's capacity to pursue meaningful social contributions.
 
