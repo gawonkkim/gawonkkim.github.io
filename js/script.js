@@ -106,10 +106,22 @@ const escapeHtml = (str) => str
   .replace(/</g, '&lt;')
   .replace(/>/g, '&gt;');
 
+function renderArticleText(text) {
+  const blocks = text.split(/\n\s*\n/).map(b => b.trim()).filter(Boolean);
+  return blocks.map(b => {
+    if (b.startsWith('## ')) {
+      return `<h4 class="article-heading">${escapeHtml(b.slice(3))}</h4>`;
+    }
+    return `<p>${escapeHtml(b)}</p>`;
+  }).join('');
+}
+
 document.querySelectorAll('.code-toggle').forEach(btn => {
   btn.addEventListener('click', async () => {
     const panel = btn.closest('.project-detail').querySelector('.code-panel');
     const alreadyOpen = btn.classList.contains('open');
+    const isArticle = !!btn.dataset.article;
+    const src = btn.dataset.code || btn.dataset.article;
 
     // reset sibling toggle buttons sharing this panel
     btn.closest('.project-links').querySelectorAll('.code-toggle').forEach(b => b.classList.remove('open'));
@@ -120,19 +132,23 @@ document.querySelectorAll('.code-toggle').forEach(btn => {
     }
 
     btn.classList.add('open');
-    panel.innerHTML = '<p class="code-panel-loading">코드 불러오는 중…</p>';
+    panel.innerHTML = `<p class="code-panel-loading">${isArticle ? '아티클 불러오는 중…' : '코드 불러오는 중…'}</p>`;
 
     try {
-      const res = await fetch(btn.dataset.code);
+      const res = await fetch(src);
       const text = await res.text();
-      const lang = btn.dataset.lang || 'python';
-      const fileName = btn.dataset.code.split('/').pop();
-      panel.innerHTML = `<p class="code-panel-name">${fileName}</p><pre class="line-numbers"><code class="language-${lang}">${escapeHtml(text)}</code></pre>`;
-      if (window.Prism) {
-        Prism.highlightAllUnder(panel);
+      if (isArticle) {
+        panel.innerHTML = `<div class="article-panel">${renderArticleText(text)}</div>`;
+      } else {
+        const lang = btn.dataset.lang || 'python';
+        const fileName = src.split('/').pop();
+        panel.innerHTML = `<p class="code-panel-name">${fileName}</p><pre class="line-numbers"><code class="language-${lang}">${escapeHtml(text)}</code></pre>`;
+        if (window.Prism) {
+          Prism.highlightAllUnder(panel);
+        }
       }
     } catch (err) {
-      panel.innerHTML = '<p class="code-panel-loading">코드를 불러오지 못했습니다.</p>';
+      panel.innerHTML = `<p class="code-panel-loading">${isArticle ? '아티클을' : '코드를'} 불러오지 못했습니다.</p>`;
     }
   });
 });
