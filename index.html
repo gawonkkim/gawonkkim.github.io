@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://cdn.jsdelivr.net">
 <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-tomorrow.min.css">
-<link rel="stylesheet" href="css/style.css?v=5">
+<link rel="stylesheet" href="css/style.css?v=6">
 </head>
 <body>
 
@@ -302,36 +302,6 @@
         <div class="project-head" data-toggle>
           <div>
             <div class="tag-row">
-              <span class="tag tag-code">PyTorch · GPU</span>
-              <span class="tag tag-code">AI & 금융공학</span>
-            </div>
-            <h3 class="project-title">딥헤징 (Deep Hedging with Neural Networks)</h3>
-            <p class="project-summary">옵션을 헤지하는 전략을 신경망이 직접 학습하게 만들고, 전통적인 블랙숄즈 모형과 비교해봤습니다. 실시간 시세를 받아오는 파이프라인도 함께 구현했습니다.</p>
-          </div>
-          <button class="expand-btn" aria-label="자세히 보기">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-          </button>
-        </div>
-        <div class="project-detail">
-          <p>쉽게 말하면, 주식 옵션(가격이 변할 위험에 대비하는 금융 상품)의 위험을 줄이는 전략을, 정해진 공식이 아니라 AI가 데이터를 보고 스스로 찾아내게 만든 프로젝트입니다.</p>
-          <ul>
-            <li>먼저 주가가 실제로 어떻게 움직이는지 수학적으로 여러 번 시뮬레이션했습니다 (기하 브라운 운동).</li>
-            <li>유러피언, 룩백, 아메리칸 바이너리 등 종류별 옵션 상품마다 '얼마를 벌고 잃는지' 계산하는 공식을 직접 만들었습니다.</li>
-            <li>신경망(AI 모델)이 위험을 최소화하는 방향으로 스스로 헤징 전략을 학습하도록 PyTorch로 구현하고 GPU로 학습시켰습니다.</li>
-            <li>이렇게 만든 AI 전략이 기존 공식(블랙숄즈)이나 몬테카를로 시뮬레이션 결과와 비교했을 때도 잘 작동하는지 검증했습니다.</li>
-            <li>여기서 더 나아가 한국투자증권 Open API를 연동해 실시간 시세를 받아오는 파이프라인도 만들어, 이론이 실제 시장 데이터에서도 통하는지 직접 실험해봤습니다.</li>
-          </ul>
-          <div class="project-links">
-            <button class="code-toggle" data-code="assets/code/deep_hedging.py" data-lang="python">코드 보기 ↓</button>
-          </div>
-          <div class="code-panel"></div>
-        </div>
-      </article>
-
-      <article class="project reveal">
-        <div class="project-head" data-toggle>
-          <div>
-            <div class="tag-row">
               <span class="tag tag-code">Keras · TensorFlow</span>
             </div>
             <h3 class="project-title">Fashion-MNIST 이미지 분류</h3>
@@ -484,6 +454,6 @@
 
 <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-core.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
-<script src="js/script.js?v=5"></script>
+<script src="js/script.js?v=6"></script>
 </body>
 </html>
