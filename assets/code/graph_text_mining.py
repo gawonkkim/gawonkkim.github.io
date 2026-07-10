@@ -17,12 +17,11 @@ nltk.download('averaged_perceptron_tagger')
 nltk.download('averaged_perceptron_tagger_eng')
 nltk.download('stopwords')
 
-text = """Coffee is one of the most beloved beverages worldwide, enjoyed by millions of people every day.
-The history of coffee dates back to the 15th century when it was first discovered in Ethiopia. From there, it spread to the Arabian Peninsula and
-eventually to Europe and the Americas. Coffee is made from roasted coffee beans, which are the seeds of berries from the Coffea plant.
-The two most common types of coffee beans are Arabica and Robusta, each offering distinct flavors and aromas. Coffee not only provides a caffeine boost
-but is also rich in antioxidants, which can help protect against various diseases. The coffee industry is a major economic driver, with countries like Brazil,
-Vietnam, and Colombia being the top producers. Coffee culture has evolved significantly, with numerous brewing methods and a variety of specialty coffee drinks available today.
+text = """Artificial intelligence has become one of the most transformative technologies of the 21st century, reshaping industries from finance to healthcare.
+Machine learning, a core branch of AI, enables systems to learn patterns from data rather than following explicitly programmed rules. Deep learning, which relies on neural networks
+with many layers, has driven major breakthroughs in image recognition, natural language processing, and game-playing agents. As AI models grow larger and more capable, questions
+about interpretability, fairness, and responsible deployment have become increasingly important. Economists have also started studying how AI adoption affects productivity, labor markets,
+and competition across industries. Understanding both the technical foundations and the broader economic implications of AI is essential for building systems that are not only powerful but also trustworthy.
 """
 
 # Stop words identification
